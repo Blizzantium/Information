@@ -1,10 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My GitHub Page</title>
+  <meta charset="UTF-8">
+  <title>My Pokémon Team</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #74ebd5, #ACB6E5);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin: 20px 0;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      width: 120px;
+      height: 120px;
+    }
+
+    .type {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is my GitHub Pages site 🚀</p>
+
+  <h1>🔥 My Pokémon Team 🔥</h1>
+
+  <div class="container">
+    
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png">
+      <h2>Pikachu</h2>
+      <p class="type">Electric ⚡</p>
+    </div>
+
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
+      <h2>Charizard</h2>
+      <p class="type">Fire / Flying 🔥</p>
+    </div>
+
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png">
+      <h2>Blastoise</h2>
+      <p class="type">Water 💧</p>
+    </div>
+
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png">
+      <h2>Venusaur</h2>
+      <p class="type">Grass / Poison 🌿</p>
+    </div>
+
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png">
+      <h2>Gengar</h2>
+      <p class="type">Ghost 👻</p>
+    </div>
+
+  </div>
+
 </body>
 </html>
