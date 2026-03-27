@@ -34,6 +34,7 @@ grid.appendChild(card)
 
 render(data)
 
+if(search){
 search.addEventListener("input",()=>{
 
 const q=search.value.toLowerCase()
@@ -43,6 +44,7 @@ const filtered=data.filter(p=>p.name.toLowerCase().includes(q))
 render(filtered)
 
 })
+}
 
 }
 
@@ -76,7 +78,6 @@ allowfullscreen
 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 </div>
-
 ` : ""}
 
 `
