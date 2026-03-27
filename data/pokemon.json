@@ -1,18 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Pokemon</title>
-<link rel="stylesheet" href="style.css">
-</head>
+[
+{
+"name":"Pikachu",
+"role":"Attacker",
+"image":"images/pokemon/pikachu.png",
+"gif":"gifs/pikachu.gif"
+},
 
-<body>
-
-<a href="index.html">⬅ Back</a>
-
-<div id="pokemon-detail"></div>
-
-<script src="script.js"></script>
-
-</body>
-</html>
+{
+"name":"Charizard",
+"role":"All-Rounder",
+"image":"images/pokemon/charizard.png",
+"video":"videos/charizard.mp4"
+}
+]
