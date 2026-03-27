@@ -1,4 +1,15 @@
 [
-  {"name":"Pikachu","role":"Attacker"},
-  {"name":"Charizard","role":"All-Rounder"}
+{
+"name":"Pikachu",
+"role":"Attacker",
+"image":"images/pokemon/pikachu.png",
+"gif":"gifs/pikachu.gif"
+},
+
+{
+"name":"Charizard",
+"role":"All-Rounder",
+"image":"images/pokemon/charizard.png",
+"video":"videos/charizard.mp4"
+}
 ]
