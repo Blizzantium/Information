@@ -67,9 +67,13 @@ ${p.gif ? `<h3>Animation</h3><img src="${p.gif}" width="300">` : ""}
 
 ${p.video ? `
 <h3>Video</h3>
-<video class="video" width="400" controls>
-<source src="${p.video}" type="video/mp4">
-</video>
+<iframe width="560" height="315"
+src="${p.video}"
+title="Pokemon Video"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
 ` : ""}
 
 `
