@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Pikachu",
+    "role": "Attacker",
+    "difficulty": "Novice",
+    "attackType": "Ranged"
+  },
+  {
+    "name": "Charizard",
+    "role": "All-Rounder",
+    "difficulty": "Intermediate",
+    "attackType": "Melee"
+  }
+]
