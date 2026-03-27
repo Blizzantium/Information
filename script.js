@@ -65,16 +65,7 @@ detail.innerHTML=`
 
 ${p.gif ? `<h3>Animation</h3><img src="${p.gif}" width="300">` : ""}
 
-${p.video ? `
-<h3>Video</h3>
-<iframe width="560" height="315"
-src="${p.video}"
-title="Pokemon Video"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-</iframe>
-` : ""}
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/lx1C9sKJOGY?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer *; clipboard-write *; encrypted-media *; gyroscope *; picture-in-picture *; web-share *;" referrerpolicy="strict-origin"></iframe></div>
 
 `
 
